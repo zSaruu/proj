@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorspēks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="navbar-wrapper">
+        <div class="navbar">
+            <div class="nav-item">
+                <a href="Main.html">Sākums</a>
+            </div>
+            <div class="nav-item">
+                <a href="Services.html">Servisi</a>
+            </div>
+            <div class="nav-item active">
+                <a href="Aboutus.html">Par Mums</a>
+            </div>
+            <div class="nav-item">
+                <a href="Contact.html">Kontakti</a>
+            </div>
+        </div>
+    </div>
+     <h3 class="rindina">Par mums – Motorspēks</h3>
+        <p class="text2">Motorspēks ir uzticams partneris visiem motociklu entuziastiem. </p> <br>
+        <p class="text2">Mēs piedāvājam plašu pakalpojumu klāstu,</p> <br>
+        <p class="text2">  kas ietver jaunākos motociklus pārdošanā, nomu un apkopi. </p> <br>
+        <p class="text2"> Neatkarīgi no tā, vai vēlies izbaudīt aizraujošu braucienu ar </p> <br>
+        <p class="text2">jaunākajiem modeļiem vai iegādāties sev ideālo motociklu, </p> <br>
+        <p class="text2">  Motorspēks ir vieta, kur atradīsi to, kas tev nepieciešams. </p> <br>
+        <p class="text2">   Mēs rūpējamies par katra klienta vēlmēm un nodrošinām </p> <br>
+            <p class="text2">augstas kvalitātes servisus, </p> <br>
+        <p class="text2"> lai nodrošinātu maksimālu braukšanas prieku un drošību.</p> <br>
+        <body>
+            <div class="form-container">
+                <h2>Atsauksmju Forma</h2>
+                <form class="feedback-form" id="feedbackForm">
+                    <label for="rating">Kāds bija mūsu serviss (1-10):</label>
+                    <input type="number" id="rating" name="rating" min="1" max="10" required>
+        
+                    <label for="service">Kādu pakalpojumu izvēlējāties?</label>
+                    <textarea id="service" name="service" rows="2" placeholder="Ierakstiet savu atbildi šeit..." required></textarea>
+        
+                    <label for="repeatCustomer">Vai būsiet atkārtots klients?</label>
+                    <select id="repeatCustomer" name="repeatCustomer" required>
+                        <option value="">Izvēlieties...</option>
+                        <option value="yes">Jā</option>
+                        <option value="no">Nē</option>
+                    </select>
+        
+                    <button type="submit">Iesniegt</button>
+                </form>
+            </div>
+        
+</html>
